@@ -56,13 +56,12 @@ bash run_nyu.sh
 If this repository is useful for your research, please cite our paper:
 
 ```bibtex
-@inproceedings{
-chen2026sims,
-title={{SIMS}: Scale-Invariant Merit-Function-Based Scalarization for Multi-Task Learning},
-author={Zebin Chen, Fei Xing, Yang Chen, Hua Liu, Andy Chow, Yuhua Qian, Yu Zhang },
-booktitle={32nd SIGKDD Conference on Knowledge Discovery and Data Mining, 2026 - Research Track (Second Cycle Deadline)},
-year={2026},
-url={https://openreview.net/forum?id=QkOuKi0qrq}
+@inproceedings{chen2026sims,
+  title={SIMS: Scale-Invariant Merit-Function-Based Scalarization for Multi-Task Learning},
+  author={Chen, Zebin and Xing, Fei and Chen, Yang and Liu, Hua and Chow, Andy HF and Qian, Yuhua and Zhang, Yu},
+  booktitle={Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V. 2},
+  pages={520--531},
+  year={2026}
 }
 ```
 
