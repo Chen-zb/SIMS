@@ -2,6 +2,8 @@
 
 Official implementation of **SIMS**, a SAM 2 based framework for multi-task dense prediction.
 
+**Paper:** [SIMS: Scale-Invariant Merit-Function-Based Scalarization for Multi-Task Learning](https://doi.org/10.1145/3770855.3818042) · [ACM Digital Library](https://dl.acm.org/doi/abs/10.1145/3770855.3818042)
+
 ## Abstract
 
 Multi-task learning (MTL) requires navigating unavoidable trade-offs among competing objectives. This paradigm is frequently formulated as multi-objective optimization (MOO), where the scalarization is favored to reduce an MOO problem to a single objective. We empirically find that existing merit-function-based scalarization approaches are sensitive to the relative scales of different objectives in practical MTL, where task losses commonly differ by orders of magnitude. The optimization process often favors objectives with larger scales even though the underlying Pareto optimal solutions remains invariant to rescaling (i.e., multiplying an objective by a positive constant). To address this issue, we propose **S**cale-**I**nvariant **M**erit-function-based **S**calarization (**SIMS**) for MTL. Specifically, SIMS adopts a transformation-induced merit function to convert the MOO problem of MTL to a single objective that renders optimization invariant to the magnitudes of losses. Theoretically, we prove that the requirement for scale invariance uniquely determines this transformation to be logarithmic. We further show that this general transformation-induced merit function preserves weak Pareto optimality and admits a smooth surrogate with controllable approximation error. Extensive experiments on representative multi-task benchmarks demonstrate that SIMS consistently outperforms existing scalarization methods and achieves state-of-the-art performance.
@@ -61,7 +63,9 @@ If this repository is useful for your research, please cite our paper:
   author={Chen, Zebin and Xing, Fei and Chen, Yang and Liu, Hua and Chow, Andy HF and Qian, Yuhua and Zhang, Yu},
   booktitle={Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V. 2},
   pages={520--531},
-  year={2026}
+  year={2026},
+  doi={10.1145/3770855.3818042},
+  url={https://doi.org/10.1145/3770855.3818042}
 }
 ```
 
